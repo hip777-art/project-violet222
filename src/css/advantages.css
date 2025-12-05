@@ -1,0 +1,70 @@
+.advantage-section {
+  margin-left: 16px;
+  margin-right: 16px;
+  font-family: Comfortaa;
+  min-width: 288px;
+}
+
+.advantage-section-description-box {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+}
+.advantage-section-name-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #030a06;
+  margin-bottom: 16px;
+  font-family: Fira Sans;
+}
+.advantage-section-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  line-height: 43px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+.advantage-section-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.6;
+  color: #030a06;
+  margin-bottom: 48px;
+  font-family: Fira Sans;
+}
+.advantage-section-image-box {
+  display: flex;
+  gap: 24px;
+}
+.advantage-section-imagine-and-descriptoin-block {
+}
+.advantage-section-imagine-and-descriptoin-list {
+}
+.advantage-section-img {
+  margin-bottom: 8px;
+}
+.advantage-section-subtitle {
+  font-weight: 700;
+  font-size: 32px;
+
+  line-height: 45px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-top: 4px;
+}
+@media screen and (min-width: 768px) {
+  .advantage-section-description-box {
+    width: 768px;
+  }
+  .advantage-section-imagine-and-descriptoin-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .advantage-section-img {
+    width: 340px;
+  }
+}
