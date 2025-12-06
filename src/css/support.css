@@ -1,8 +1,3 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .div-support {
   display: flex;
   flex-direction: column;
@@ -93,12 +88,9 @@ body {
   letter-spacing: 0.01em;
 }
 /* планшет */
-@media screen and (min-width: 767px) {
-  .section {
-    padding: 64px 32px;
-  }
+@media screen and (min-width: 768px) {
   .div-support {
-    max-width: 704px;
+    max-width: 768px;
   }
 
   .h-support {
@@ -121,15 +113,14 @@ body {
     display: block;
   }
   .section-support {
-    padding: 64px;
+    padding: 64px 0;
   }
   .div-support {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1312px;
-    margin: 0 auto;
+    max-width: 1440px;
     gap: 24px;
   }
 
@@ -151,7 +142,7 @@ body {
     width: 644px;
   }
   .img-support {
-    width: 644px;
+    max-width: 644px;
     border-radius: 40px;
   }
   .imp-support,
